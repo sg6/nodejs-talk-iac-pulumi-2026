@@ -19,7 +19,7 @@ interface DemoState {
 }
 
 const region: string = awsRegion();
-const bucket: string = demoBucketName("state");
+const bucket: string = demoBucketName("-demo-2");
 const statePath: string = resolve(repositoryRoot, "demo-2", "state.json");
 
 function isDemoState(value: unknown): value is DemoState {

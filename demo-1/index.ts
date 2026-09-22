@@ -7,7 +7,7 @@ import {
 import { awsRegion, demoBucketName } from "../shared/config.js";
 
 const region: string = awsRegion();
-const bucket: string = demoBucketName("manual");
+const bucket: string = demoBucketName("-demo-1");
 const client: S3Client = new S3Client({ region });
 
 const input: CreateBucketCommandInput = { Bucket: bucket };
