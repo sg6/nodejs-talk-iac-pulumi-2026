@@ -32,7 +32,6 @@ function getErrorName(error: unknown): string | undefined {
 try {
   await client.send(new CreateBucketCommand(input));
   console.log(`Created S3 bucket: ${bucket}`);
-  console.log("No state was written. The AWS API is the only source of truth.");
 } catch (error: unknown) {
   console.error(`AWS rejected creation of S3 bucket: ${bucket}`);
 
