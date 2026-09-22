@@ -141,3 +141,16 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+
+# Demo state and local tool metadata
+demo-2/state.json
+demo-4/.pulumi/
+demo-5/.pulumi/
+demo-4/Pulumi.*.yaml
+demo-5/Pulumi.*.yaml
+
+# Terraform local files and state
+demo-3/.terraform/
+demo-3/*.tfstate
+demo-3/*.tfstate.*
+demo-3/crash.log

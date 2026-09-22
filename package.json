@@ -1,0 +1,18 @@
+{
+  "name": "nodejs-talk-iac-pulumi-2026",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "demo-1",
+    "demo-2",
+    "demo-4",
+    "demo-5"
+  ],
+  "scripts": {
+    "demo:1": "npm --workspace demo-1 run start",
+    "demo:2": "npm --workspace demo-2 run start",
+    "demo:4": "npm --workspace demo-4 run start",
+    "demo:5": "npm --workspace demo-5 run start",
+    "typecheck": "tsc --noEmit -p tsconfig.json"
+  }
+}

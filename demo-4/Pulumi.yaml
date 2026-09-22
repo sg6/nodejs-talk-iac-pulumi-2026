@@ -1,0 +1,8 @@
+name: demo-4
+runtime:
+  name: nodejs
+  options:
+    packagemanager: npm
+    typescript: true
+    tsconfig: tsconfig.json
+description: Create an S3 bucket with Pulumi and Node.js.

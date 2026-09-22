@@ -1,0 +1,8 @@
+name: demo-5
+runtime:
+  name: nodejs
+  options:
+    packagemanager: npm
+    typescript: true
+    tsconfig: tsconfig.json
+description: Create a Lambda, S3 bucket, and HTTP API with Pulumi and Node.js.

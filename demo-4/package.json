@@ -1,0 +1,19 @@
+{
+  "name": "demo-4-pulumi-nodejs",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "bash run.sh up",
+    "typecheck": "tsc --noEmit -p tsconfig.json"
+  },
+  "dependencies": {
+    "@pulumi/aws": "^6.83.0",
+    "@pulumi/pulumi": "^3.140.0",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
+}
