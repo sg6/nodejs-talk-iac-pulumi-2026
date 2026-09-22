@@ -9,7 +9,7 @@ const provider: aws.Provider = new aws.Provider("aws-provider", {
 const bucket: aws.s3.Bucket = new aws.s3.Bucket(
   "nodejsBucket",
   {
-    bucket: demoBucketName("nodejs"),
+    bucket: demoBucketName("-demo-4"),
     tags: {
       Demo: "demo-4",
       ManagedBy: "Pulumi",

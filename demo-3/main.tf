@@ -12,7 +12,7 @@ terraform {
 provider "aws" {}
 
 resource "aws_s3_bucket" "demo" {
-  bucket = "${var.base_bucket_name}-tf"
+  bucket = "${var.base_bucket_name}--demo-3"
 
   tags = {
     Demo      = "demo-3"

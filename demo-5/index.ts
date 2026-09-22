@@ -15,7 +15,7 @@ const provider: aws.Provider = new aws.Provider("aws-provider", {
 const bucket: aws.s3.Bucket = new aws.s3.Bucket(
   "applicationBucket",
   {
-    bucket: demoBucketName("complex"),
+    bucket: demoBucketName("-demo-5"),
     // This is convenient for a disposable talk demo because the Lambda writes objects.
     forceDestroy: true,
     tags: {
